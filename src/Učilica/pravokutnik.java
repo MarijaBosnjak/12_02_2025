@@ -2,10 +2,10 @@ package Učilica;
 
 public class pravokutnik {
     private double a, b;
-    String naziv;
+     private String naziv;
 
-    public pravokutnik(double a, double b) {
-
+    public pravokutnik(String naziv, double a, double b) {
+        this.naziv = naziv;
         this.a = a;
         this.b = b;
     }
