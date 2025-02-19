@@ -2,8 +2,9 @@ package Učilica;
 
 public class trokut {
     private double a,b,c;
-    String naziv;
-    public trokut(double a, double b, double c){
+   private String naziv;
+    public trokut(String raznostranicniTrokut, double a, double b, double c){
+        this.naziv=naziv;
         this.a=a;
         this.b=b;
         this.c=c;
